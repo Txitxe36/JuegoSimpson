@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB574984-2DD7-4F2C-A892-674189D7B6EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Desafio1</RootNamespace>
+    <AssemblyName>Desafio1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bart1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart1.Designer.cs">
+      <DependentUpon>Bart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart10.Designer.cs">
+      <DependentUpon>Bart10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart2.Designer.cs">
+      <DependentUpon>Bart2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart3.Designer.cs">
+      <DependentUpon>Bart3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart4.Designer.cs">
+      <DependentUpon>Bart4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart5.Designer.cs">
+      <DependentUpon>Bart5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart6.Designer.cs">
+      <DependentUpon>Bart6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart7.Designer.cs">
+      <DependentUpon>Bart7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart8.Designer.cs">
+      <DependentUpon>Bart8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bart9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bart9.Designer.cs">
+      <DependentUpon>Bart9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganaste.Designer.cs">
+      <DependentUpon>Ganaste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero1.Designer.cs">
+      <DependentUpon>Homero1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero10.Designer.cs">
+      <DependentUpon>Homero10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero2.Designer.cs">
+      <DependentUpon>Homero2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero3.Designer.cs">
+      <DependentUpon>Homero3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero4.Designer.cs">
+      <DependentUpon>Homero4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero5.Designer.cs">
+      <DependentUpon>Homero5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero6.Designer.cs">
+      <DependentUpon>Homero6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero7.Designer.cs">
+      <DependentUpon>Homero7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero8.Designer.cs">
+      <DependentUpon>Homero8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homero9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homero9.Designer.cs">
+      <DependentUpon>Homero9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa1.Designer.cs">
+      <DependentUpon>Lisa1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa10.Designer.cs">
+      <DependentUpon>Lisa10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa2.Designer.cs">
+      <DependentUpon>Lisa2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa3.Designer.cs">
+      <DependentUpon>Lisa3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa4.Designer.cs">
+      <DependentUpon>Lisa4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa5.Designer.cs">
+      <DependentUpon>Lisa5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa6.Designer.cs">
+      <DependentUpon>Lisa6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa7.Designer.cs">
+      <DependentUpon>Lisa7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa8.Designer.cs">
+      <DependentUpon>Lisa8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisa9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lisa9.Designer.cs">
+      <DependentUpon>Lisa9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge1.Designer.cs">
+      <DependentUpon>Marge1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge10.Designer.cs">
+      <DependentUpon>Marge10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge2.Designer.cs">
+      <DependentUpon>Marge2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge3.Designer.cs">
+      <DependentUpon>Marge3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge4.Designer.cs">
+      <DependentUpon>Marge4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge5.Designer.cs">
+      <DependentUpon>Marge5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge6.Designer.cs">
+      <DependentUpon>Marge6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge7.Designer.cs">
+      <DependentUpon>Marge7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge8.Designer.cs">
+      <DependentUpon>Marge8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marge9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marge9.Designer.cs">
+      <DependentUpon>Marge9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perdiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perdiste.Designer.cs">
+      <DependentUpon>Perdiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Bart1.resx">
+      <DependentUpon>Bart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart10.resx">
+      <DependentUpon>Bart10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart2.resx">
+      <DependentUpon>Bart2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart3.resx">
+      <DependentUpon>Bart3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart4.resx">
+      <DependentUpon>Bart4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart5.resx">
+      <DependentUpon>Bart5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart6.resx">
+      <DependentUpon>Bart6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart7.resx">
+      <DependentUpon>Bart7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart8.resx">
+      <DependentUpon>Bart8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bart9.resx">
+      <DependentUpon>Bart9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganaste.resx">
+      <DependentUpon>Ganaste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero1.resx">
+      <DependentUpon>Homero1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero10.resx">
+      <DependentUpon>Homero10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero2.resx">
+      <DependentUpon>Homero2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero3.resx">
+      <DependentUpon>Homero3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero4.resx">
+      <DependentUpon>Homero4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero5.resx">
+      <DependentUpon>Homero5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero6.resx">
+      <DependentUpon>Homero6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero7.resx">
+      <DependentUpon>Homero7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero8.resx">
+      <DependentUpon>Homero8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homero9.resx">
+      <DependentUpon>Homero9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa1.resx">
+      <DependentUpon>Lisa1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa10.resx">
+      <DependentUpon>Lisa10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa2.resx">
+      <DependentUpon>Lisa2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa3.resx">
+      <DependentUpon>Lisa3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa4.resx">
+      <DependentUpon>Lisa4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa5.resx">
+      <DependentUpon>Lisa5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa6.resx">
+      <DependentUpon>Lisa6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa7.resx">
+      <DependentUpon>Lisa7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa8.resx">
+      <DependentUpon>Lisa8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lisa9.resx">
+      <DependentUpon>Lisa9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge1.resx">
+      <DependentUpon>Marge1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge10.resx">
+      <DependentUpon>Marge10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge2.resx">
+      <DependentUpon>Marge2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge3.resx">
+      <DependentUpon>Marge3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge4.resx">
+      <DependentUpon>Marge4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge5.resx">
+      <DependentUpon>Marge5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge6.resx">
+      <DependentUpon>Marge6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge7.resx">
+      <DependentUpon>Marge7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge8.resx">
+      <DependentUpon>Marge8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marge9.resx">
+      <DependentUpon>Marge9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perdiste.resx">
+      <DependentUpon>Perdiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
